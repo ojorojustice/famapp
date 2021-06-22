@@ -17,8 +17,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.468"
-        app:srcCompat="@drawable/famapp_logo"
         android:src="@drawable/famapp_logo"/>
+        app:srcCompat="@drawable/famapp_logo"
+
 
     <TextView
         android:id="@+id/register"
