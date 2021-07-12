@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FamAppApplication">
-        <activity android:name=".userNavigation"></activity>
+        <activity android:name=".LearnFromCasesActivity"></activity>
+        <activity android:name=".TalkToUsActivity" />
+        <activity android:name=".AppointmentBookingActivity" />
+        <activity android:name=".UpdateFamilyActivity" />
+        <activity android:name=".FamilyListActivity" />
+        <activity android:name=".AddFamilyActivity" />
+        <activity android:name=".Home" />
         <activity android:name=".loginActivity" />
         <activity android:name=".registerActivity" />
         <activity android:name=".MainActivity">

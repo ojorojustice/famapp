@@ -1,40 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-     <item android:id="@+id/famapp_home"
-     android:icon="@drawable/ic_baseline_home_24"
-     android:title="Home" />
+    <!--     <item android:id="@+id/famapp_home"-->
+    <!--     android:icon="@drawable/ic_baseline_home_24"-->
+    <!--     android:title="Home" />-->
 
-    <item android:id="@+id/famapp_profile"
+    <item
+        android:id="@+id/famapp_profile"
         android:icon="@drawable/ic_baseline_person_24"
         android:title="Profile" />
 
-    <item android:id="@+id/famapp_report"
+    <item
+        android:id="@+id/famapp_report"
         android:icon="@drawable/ic_baseline_report_24"
         android:title="Report" />
 
-    <item android:id="@+id/famapp_findhelp"
+    <item
+        android:id="@+id/famapp_findhelp"
         android:icon="@drawable/ic_baseline_live_help_24"
         android:title="Find help" />
 
-    <item android:id="@+id/famapp_add_family"
+    <item
+        android:id="@+id/famapp_add_family"
         android:icon="@drawable/ic_baseline_person_add_24"
         android:title="Add family" />
 
-    <item android:id="@+id/famapp_consultant"
+    <item
+        android:id="@+id/famapp_consultant"
         android:icon="@drawable/ic_baseline_attach_email_24"
-        android:title="Consult by mail" />
+        android:title="Consultation" />
 
-    <item android:id="@+id/famapp_chat"
+    <item
+        android:id="@+id/famapp_chat"
         android:icon="@drawable/ic_baseline_chat_24"
         android:title="Live chat" />
 
-    <item android:id="@+id/famapp_share"
+    <item
+        android:id="@+id/famapp_share"
         android:icon="@drawable/share"
-        android:title="Share experience"/>
+        android:title="Share experience" />
 
-    <item android:id="@+id/famapp_exit"
+    <item
+        android:id="@+id/famapp_exit"
         android:icon="@drawable/ic_baseline_exit_to_app_24"
-        android:title="exit"/>
+        android:title="exit" />
 
 
 </menu>

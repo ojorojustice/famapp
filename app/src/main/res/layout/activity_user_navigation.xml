@@ -5,7 +5,7 @@
     android:id="@+id/drawer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".userNavigation"
+    tools:context=".Home"
     tools:openDrawer="start">
 
     <RelativeLayout
@@ -17,16 +17,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/blue_800"
-            app:title="user welcome page"
+            app:title="Home"
             app:titleTextColor="@color/cardview_light_background" />
     </RelativeLayout>
 
-<!--    <androidx.fragment.app.FragmentContainerView-->
-<!--        android:id="@+id/nav_host_fragment"-->
-<!--        android:name="androidx.navigation.fragment.NavHostFragment"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-<!--        app:defaultNavHost="true" />-->
+    <!--    <androidx.fragment.app.FragmentContainerView-->
+    <!--        android:id="@+id/nav_host_fragment"-->
+    <!--        android:name="androidx.navigation.fragment.NavHostFragment"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        app:defaultNavHost="true" />-->
 
 
     <com.google.android.material.navigation.NavigationView

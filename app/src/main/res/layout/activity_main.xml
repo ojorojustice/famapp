@@ -11,15 +11,14 @@
         android:id="@+id/imageView3"
         android:layout_width="154dp"
         android:layout_height="121dp"
+        android:src="@drawable/famapp_logo"
         app:layout_constraintBottom_toTopOf="@+id/register"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.468"
-        android:src="@drawable/famapp_logo"/>
-        app:srcCompat="@drawable/famapp_logo"
-
+        app:srcCompat="@drawable/famapp_logo" />
 
     <TextView
         android:id="@+id/register"
@@ -68,7 +67,7 @@
         android:drawableLeft="@drawable/ic_security"
         android:ems="10"
         android:hint="Password"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
         android:paddingRight="20dp"
@@ -97,7 +96,6 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/inputPassword"
         app:layout_constraintTop_toBottomOf="@+id/forgotPassword" />
-
 
 
     <TextView

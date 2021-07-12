@@ -7,13 +7,14 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
 
-public class userNavigation extends AppCompatActivity {
+public class Home extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,13 +39,15 @@ public class userNavigation extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
                 switch (item.getItemId()) {
-                    case R.id.famapp_home:
-                        Toast.makeText(getApplicationContext(), "Home panel here", Toast.LENGTH_LONG).show();
-                        dLayout.closeDrawer(GravityCompat.START);
-                        break;
+//                    case R.id.famapp_home:
+//                        Toast.makeText(getApplicationContext(), "Home panel here", Toast.LENGTH_LONG).show();
+//                        dLayout.closeDrawer(GravityCompat.START);
+//                        break;
 
                     case R.id.famapp_add_family:
                         Toast.makeText(getApplicationContext(), "Add your family", Toast.LENGTH_LONG).show();
+                        Intent addFamilyIntent = new Intent(Home.this, AddFamilyActivity.class);
+                        startActivity(addFamilyIntent);
                         dLayout.closeDrawer(GravityCompat.START);
                         break;
                     case R.id.famapp_chat:
@@ -53,11 +56,15 @@ public class userNavigation extends AppCompatActivity {
                         break;
 
                     case R.id.famapp_consultant:
-                        Toast.makeText(getApplicationContext(), "Send mail to a child development Professor", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "Consult a child development Professor", Toast.LENGTH_LONG).show();
+                        Intent talkToUs = new Intent(Home.this, TalkToUsActivity.class);
+                        startActivity(talkToUs);
                         dLayout.closeDrawer(GravityCompat.START);
                         break;
                     case R.id.famapp_findhelp:
                         Toast.makeText(getApplicationContext(), "find help immediately online", Toast.LENGTH_LONG).show();
+                        Intent learnFromCases = new Intent(Home.this, LearnFromCasesActivity.class);
+                        startActivity(learnFromCases);
                         dLayout.closeDrawer(GravityCompat.START);
                         break;
                     case R.id.famapp_profile:
@@ -66,6 +73,7 @@ public class userNavigation extends AppCompatActivity {
                         break;
                     case R.id.famapp_report:
                         Toast.makeText(getApplicationContext(), "report an abuse", Toast.LENGTH_LONG).show();
+
                         dLayout.closeDrawer(GravityCompat.START);
                         break;
                     case R.id.famapp_share:
@@ -74,6 +82,7 @@ public class userNavigation extends AppCompatActivity {
                         break;
                     case R.id.famapp_exit:
                         Toast.makeText(getApplicationContext(), "Bye", Toast.LENGTH_LONG).show();
+                        finish();
                         dLayout.closeDrawer(GravityCompat.START);
                         break;
                 }
