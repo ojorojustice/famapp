@@ -78,6 +78,8 @@ public class Home extends AppCompatActivity {
                         break;
                     case R.id.famapp_share:
                         Toast.makeText(getApplicationContext(), "You can share an experience", Toast.LENGTH_LONG).show();
+                        Intent intent = new Intent(Home.this, ShareExperience.class);
+                        startActivity(intent);
                         dLayout.closeDrawer(GravityCompat.START);
                         break;
                     case R.id.famapp_exit:
