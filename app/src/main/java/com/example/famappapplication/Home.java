@@ -51,7 +51,9 @@ public class Home extends AppCompatActivity {
                         dLayout.closeDrawer(GravityCompat.START);
                         break;
                     case R.id.famapp_chat:
-                        Toast.makeText(getApplicationContext(), "Chat with an Expert", Toast.LENGTH_LONG).show();
+                        //Toast.makeText(getApplicationContext(), "Chat with an Expert", Toast.LENGTH_SHORT).show();
+                        Intent chatIntent = new Intent(Home.this, LiveChat.class);
+                        startActivity(chatIntent);
                         dLayout.closeDrawer(GravityCompat.START);
                         break;
 
@@ -78,8 +80,8 @@ public class Home extends AppCompatActivity {
                         break;
                     case R.id.famapp_share:
                         Toast.makeText(getApplicationContext(), "You can share an experience", Toast.LENGTH_LONG).show();
-                        Intent intent = new Intent(Home.this, ShareExperience.class);
-                        startActivity(intent);
+                        Intent shareIntent = new Intent(Home.this, ShareExperience.class);
+                        startActivity(shareIntent);
                         dLayout.closeDrawer(GravityCompat.START);
                         break;
                     case R.id.famapp_exit:

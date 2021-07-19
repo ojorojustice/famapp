@@ -13,7 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FamAppApplication"
         android:usesCleartextTraffic="true">
-        <activity android:name=".ShareExperience"></activity>
+        <activity android:name=".LiveChat"></activity>
+        <activity android:name=".ShareExperience" />
         <activity android:name=".LearnFromCasesActivity" />
         <activity android:name=".TalkToUsActivity" />
         <activity android:name=".AppointmentBookingActivity" />

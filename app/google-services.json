@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "130543571440",
+    "firebase_url": "https://famapp-fff0b-default-rtdb.firebaseio.com",
+    "project_id": "famapp-fff0b",
+    "storage_bucket": "famapp-fff0b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130543571440:android:5d73d7d28736b254ed0d35",
+        "android_client_info": {
+          "package_name": "com.example.famappapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130543571440-fnserugs1vhuiea7j2qloqg8ij80joap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlH74WbjqgyvKGm6buCPwgUXKrsVdc7vU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130543571440-fnserugs1vhuiea7j2qloqg8ij80joap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
