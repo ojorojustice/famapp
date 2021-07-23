@@ -23,7 +23,7 @@ public class registerActivity extends AppCompatActivity {
                 startActivity(new Intent(registerActivity.this, MainActivity.class));
             }
         });
-
+    //signup validation and collection activity
         EditText username, email, password, confirmPassword;
         username = findViewById(R.id.inputUsername);
         email = findViewById(R.id.inputEmail);

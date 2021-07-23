@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
             finish();
         });
 
+        //username and password validation and collection activity
         Button welcome = findViewById(R.id.login);
         welcome.setOnClickListener(v -> {
             username = (EditText) findViewById(R.id.inputUsername);

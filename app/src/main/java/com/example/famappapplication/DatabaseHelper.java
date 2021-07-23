@@ -17,7 +17,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         super(context, "child.db", null, 1);
         contxt = context;
     }
-
+    // for tables addfamily and users.
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL("CREATE TABLE tbl_family (id INTEGER PRIMARY KEY AUTOINCREMENT, fName TEXT, mName TEXT, cName TEXT, cAge TEXT, mobile TEXT, comment TEXT)");
@@ -30,7 +30,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         onCreate(db);
 
     }
-
+    //insertion of received info into database
     public long addChildData(Child c) {
 
         SQLiteDatabase db = getWritableDatabase();
